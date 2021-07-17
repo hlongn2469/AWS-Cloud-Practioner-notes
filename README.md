@@ -23,7 +23,17 @@
   * Public Cloud (AWS): Provides all advantages of cloud computing and users are not responsible for physical hardware
   * Hybrid Cloud: Highly sensitive data stored locally and application runs on AWS infrastructure. Communication between private and public cloud is through **AWS Direct Connect**
 
-- [ ] **Deployment models**:
+- [ ] **AWS Global Infrastructure**:
+  * Group regions by geographical locations which is fully idenependent and service specific
+  * Availibity Zones(AZs): consists of one or more data centers in each region
+  * AZs are physically separated by using different power grids, connected through low-latency links, fault tolerant, and allows high availability.
+  * Edge Location: Mini data centers that are used for cache content for fast delivery to users and reduce latency (time takes between user request and respones). Low latency > high latency
+  * **Remember for Exam**
+    1. Multi-AZ deployments provide high avalibility
+    2. AZ has multiple data centers
+    3. A region is global and has 2 or more Azs
+    4. Edge locations ensure low latency by placing content closer to users
+
 
 
 ## Technology
