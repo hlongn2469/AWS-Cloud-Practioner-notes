@@ -43,7 +43,7 @@
     1. Protect root user as they have certain authorities in AWS account
 
 ## Technology
-- [ ] **EC2 Services**:
+- [ ] **AWS EC2**:
   * EC2: allows you to rent and manage virtual servers in the cloud
   * Use cases: deploy a database or web application
   * Connectivity: AWS managment console, SSH, EC2 instance connect, AWS systems manager
@@ -63,6 +63,20 @@
     * Auto Scaling: Adds or replaces EC2 instances automically across AZs based on need and changing demand to improve the availibility of application
       * Horizontal scaling: Adds or replaces EC2 instances
       * Vertical scaling: Upgrades existing instances
+- [ ] **AWS Lambda**:
+  * Lambda is a severless compute service that lets you run code without managing servers
+  * Allows developers to focus on business logics
+  * Use cases: Real-time file processing, Sending emails, backend business logics
+  * Features:
+    * Supports popular programming languages (Java, Go, PowerShell, Node.js, C#, Python, Ruby)
+    * Execute code in response to events
+    * Write code in your IDE or via console
+    * 15-minute timeout
+  * Pricing: Charge based on the duration and number of requests
+    * Compute time
+    * Request count
+    * Always free
+
 
 ## Security and Compliance
 
