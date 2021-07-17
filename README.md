@@ -43,7 +43,7 @@
     1. Protect root user as they have certain authorities in AWS account
 
 ## Technology
-- [ ] **Services**:
+- [ ] **EC2 Services**:
   * EC2: allows you to rent and manage virtual servers in the cloud
   * Use cases: deploy a database or web application
   * Connectivity: AWS managment console, SSH, EC2 instance connect, AWS systems manager
