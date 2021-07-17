@@ -5,3 +5,11 @@
 
 | [Cloud Concepts 26%](#Cloud-Concepts) | [Technology 33%](#Technology) | [Security and Compliance 25%](#Security-and-Compliance) | [Blling and Pricing 16%](#Billing-and-Pricing)|
 |---------------------------------------------|------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------|
+
+## Cloud Concepts
+
+## Technology
+
+## Security and Compliance
+
+## Billing and Pricing
