@@ -34,6 +34,10 @@
     3. A region is global and has 2 or more Azs
     4. Edge locations ensure low latency by placing content closer to users
 
+- [ ] **AWS Account**:
+  * AWS management console: allows access to AWS acount and manage applications from web browser
+  * Root user: Established when create AWS account and has authority within the account.
+  * Service VPC (Virtual private cloud): Create secure and private networks
 
 
 ## Technology
