@@ -38,9 +38,31 @@
   * AWS management console: allows access to AWS acount and manage applications from web browser
   * Root user: Established when create AWS account and has authority within the account.
   * Service VPC (Virtual private cloud): Create secure and private networks
-
+  * AWS Command Line Interface (CLI): Allows access to AWS account through command or terminal window
+  * **Remember for Exam**
+    1. Protect root user as they have certain authorities in AWS account
 
 ## Technology
+- [ ] **Services**:
+  * EC2: allows you to rent and manage virtual servers in the cloud
+  * Use cases: deploy a database or web application
+  * Connectivity: AWS managment console, SSH, EC2 instance connect, AWS systems manager
+  * A public is needed to access an EC2 instance while private key is needed to access from your local machine
+  * Pricing: 
+   * On-demand: Pay for what you use 
+   * Spot: Let you take advantage of unused EC2 capacity but need to request spot. Cheapest. 
+   * Reserved Instances: reserve specific instance type in a particular region for 1 or 3 years
+   * Dedicated Host: allows pay for a physical server that is fully dedicated to running your instances
+   * Savings Plan: Allows commit to compute usage (measured per hour) for 1 or 3 years
+  * Features: 
+   * Elastic Load Balancing: automatically distributes incoming application traffic accross multiple EC2 instances
+    * Classic
+    * Application
+    * Gateway
+    * Network  
+   * Auto Scaling: Adds or replaces EC2 instances automically across AZs based on need and changing demand to improve the availibility of application
+    * Horizontal scaling: Adds or replaces EC2 instances
+    * Vertical scaling: Upgrades existing instances
 
 ## Security and Compliance
 
