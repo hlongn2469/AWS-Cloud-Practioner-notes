@@ -107,8 +107,24 @@
     2. Amazon Lightsail is a compute service that is used to quickly launch preconfigured applications for small projects.
     3. AWS Outposts supports a hybrid deployment model.
     4. AWS Batch is a compute service that is used to process large workloads in smaller batches.
-
-
+   
+- [ ] **Storage Services: S3**:
+  * An object storage service for the cloud that is highly available.
+    * Objects (or files) are stored in buckets (or directories).
+    * Objects can be public or private.
+    * Essentially unlimited storage that can hold millions of objects per bucket.
+    * You can upload objects via the console, the CLI, or programmatically from within code using SDKs. 
+  * Storage classes:
+    * Standard: General purpose storage used for frequently accessed data 
+    * Intelligent-tiering: Automatically moves your data to most cost-effective storage class
+    *  Standard IA: Data accessed less frequently but requires rapid access
+    *  One Zone IA: Similar to Standard IA but data stored in single AZ
+    *  Glacier: Long term-data storage and archival for lower costs
+    *  Glacier Deep Dive: Like Glacier but with longer access time. Cheapest
+    *  Outposts: provides object storage on premises
+  * **Remember for Exam**
+    * S3 is a regional service but has a global namespace
+    * S3 offers unlimited storage with many storage classes 
 ## Security and Compliance
 
 ## Billing and Pricing
