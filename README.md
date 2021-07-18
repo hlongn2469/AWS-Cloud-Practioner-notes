@@ -76,6 +76,37 @@
     * Compute time
     * Request count
     * Always free
+   
+- [ ] **AWS Fargate**:
+  * AWS Fargate is a serverless compute engine for containers
+    * Allows you to manage containers like Docker
+    * Scale automatically
+    * Serverless
+   
+- [ ] **Amazon LightSail**:
+  * Lightsail allows you to quickly launch all resources you need for small prjects
+    * Deploy preconfigured applications like WordPress websites quickly
+    * Simple screens for people with no cloud experience
+    * Includes VM, SSD-based storage, data transfer, DNS management and static IP
+    * Low predicitable monthly fee 
+
+- [ ] **AWS Outposts**:
+  * Allows you to run cloud services in your internal data center
+    * Supports workloads that need to remain on-premises due to latency or data processing needs
+    * AWS delivers and installs servers in your internal data center.
+    * Used for a hybrid experience
+    * Have access to the cloud services and APIs to develop apps on-premises
+
+- [ ] **AWS Batch**:
+  * Allows you to process large workloads in smaller chunks
+    * Runs hundreds and thousands of smaller batch processing jobs
+    * Dynamically provisions instances based on volume
+
+ * **Remember for Exam**
+    1. AWS Fargate is considered serverless and is used to manage containers.
+    2. Amazon Lightsail is a compute service that is used to quickly launch preconfigured applications for small projects.
+    3. AWS Outposts supports a hybrid deployment model.
+    4. AWS Batch is a compute service that is used to process large workloads in smaller batches.
 
 
 ## Security and Compliance
