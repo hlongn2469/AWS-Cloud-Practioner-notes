@@ -102,7 +102,7 @@
     * Runs hundreds and thousands of smaller batch processing jobs
     * Dynamically provisions instances based on volume
 
- * **Remember for Exam**
+- [ ] **Remember for Exam**
     1. AWS Fargate is considered serverless and is used to manage containers.
     2. Amazon Lightsail is a compute service that is used to quickly launch preconfigured applications for small projects.
     3. AWS Outposts supports a hybrid deployment model.
