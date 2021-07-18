@@ -125,6 +125,23 @@
   * **Remember for Exam**
     * S3 is a regional service but has a global namespace
     * S3 offers unlimited storage with many storage classes 
+   
+- [ ] **EC2 storage options**:
+  * Amazon EBS: storage device/volume that can be attached or removed from your instance. Use for long term, quickly accessible data or run a database on an instance
+  * Instance store: Volumes are temporary
+  * EFS: Only supports linux file systems
+  * Storage Gateway: supports hybrid model
+
+- [ ] **Content Delivery Services**:
+  * Amazon CloudFront: allows global distribution of content with security features like DDoS protection and IP blocking
+  * Global Accelerator: provides low latency to the CDN
+  * S3 Transfer Accelerstion: provides fast transfer of files over long distance
+
+- [ ] **Networking Services: VPC and subcomponents**:
+  * Amazon VPC: foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources.
+  * An internet gateway allows traffic to the public internet and peering connects 2 VPCs together.
+
+
 ## Security and Compliance
 
 ## Billing and Pricing
