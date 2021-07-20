@@ -141,7 +141,22 @@
   * Amazon VPC: foundational service that allows you to create a secure private network in the AWS cloud where you launch your resources.
   * An internet gateway allows traffic to the public internet and peering connects 2 VPCs together.
 
-
+- [ ] **DNS**:
+  * Domain name system: direct internet traffics by connecting domain name and web servers
+  * Amazon Route 53:
+    * Performs health checks on AWS resources
+    * Supports hybrid model
+  * AWS Direct connect:
+    * Dedicated physical network connection from your on-premises data center to AWS.
+    * Data travels via private network
+    * Support hybrid model
+  * AWS VPN
+    * Site-to-Site VPN: creates a secure connection between your internal networks(Customer Gateway) and your AWS VPCs (via VPN and virtual private gateway). 
+    * Data travels via public internet and is automatically encrypted
+    * Support hybrid movel
+    * Connect on-premises data to AWS 
+    * ![AWS VPN model]()
+  * 
 ## Security and Compliance
 
 ## Billing and Pricing
