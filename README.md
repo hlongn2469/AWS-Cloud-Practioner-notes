@@ -156,6 +156,8 @@
     * Support hybrid movel
     * Connect on-premises data to AWS 
     * ![AWS VPN model](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/Screen%20Shot%202021-07-20%20at%209.41.04%20AM.png)
+
+- [ ] **Utilizing databases**:
   * 
 ## Security and Compliance
 
