@@ -158,7 +158,46 @@
     * ![AWS VPN model](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/Screen%20Shot%202021-07-20%20at%209.41.04%20AM.png)
 
 - [ ] **Utilizing databases**:
-  * 
+  * Relational: RDS, Aurora
+    * RDS: Supports database engines: AMZ Aurora, PostgreSQL, MySQL, MariaDB, Oracle DB, SQL server
+    * Aurora: Supports PostgreSQL and MySQL only and managed by RDS  
+  * NoSQL: DynamoDB
+    * Non-relational key-value database
+  * Graph: Neptune
+    *  Creates social media graphs
+  * In-memory: ElastiCache
+    * in-memory datastore 
+  * Document: DocumentDB
+    *  Non relational DB that stores documents and supports MongoDB
+- [ ] **Exploring Migration and Transfer Services**:
+  * Database Migration Service (DMS) migrate on-premises databases to AWS
+    * EG: Migrate on-premises Oracle databases to Aurora MySQL
+  * Server Migration Service (SMS) migrate on-premises servers to AWS
+  * AWS Snow family: allows large data transfers of on-premises data to AWS using a physical device
+    * Snowcone: 8 tb of usage storage
+    * Snowballedge: Native services are supported such as EC2 and Lambda
+    * Snowball: transfer petabytes of data and is cheaper than transferring over the internet
+    * Snow Mobile: the largest member of the transport family and supports exabyte-scale data
+    * Datasync: Transfer data online and can be used to replicate data cross-Region or cross-account
+- [ ] **Leveraging Analytics Services**:
+  * AMZ Redshift:
+    *  Data warehousing solution that handles exabyte-scale data
+    *  Use cases: data consolidation and Relational Databases
+  * Anthena: 
+    * Query Service for AMZ S3 using SQL
+  * Glue: data preparation for analytics
+  * Kinesis: analyze data and video streams in real time
+  * Elastic MapReduce (EMR): Process large amount of data
+  * Data pipeline: moves data between compute and storage services
+- [ ] **Leveraging Machine Learning Services**:
+  * Rekognition: automate image and video analysis
+  * Comprehend: NLP service that finds relationships in text
+  * Polly: turns text into speech
+  * SageMaker: helps build, train, and deploy ML models
+  * Translate: Provides language translation 
+  * Lex: build conversational interfaces like chatbots
+- [ ] **Understanding Developer Tools**:
+- [ ] **Exploring Deployment and Infrastructure Management Services**:
 ## Security and Compliance
 
 ## Billing and Pricing
