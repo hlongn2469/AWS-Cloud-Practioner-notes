@@ -204,9 +204,7 @@
 - [ ] **Exploring Deployment and Infrastructure Management Services**:
   * CloudFormation: supports infrastructure automation using Infrastructure as Code (IaC).
   * Elastic Beanstalk: is only used to deploy applications to the AWS Cloud — it is not used to deploy applications on-premises.
-  * OpsWorks: can deploy applications on-premises, and it also automates infrastructure management 
-
-using Chef or Puppet.
+  * OpsWorks: can deploy applications on-premises, and it also automates infrastructure management using Chef or Puppet.
 ## Security and Compliance
 
 ## Billing and Pricing
