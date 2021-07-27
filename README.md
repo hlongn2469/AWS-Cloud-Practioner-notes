@@ -197,7 +197,16 @@
   * Translate: Provides language translation 
   * Lex: build conversational interfaces like chatbots
 - [ ] **Understanding Developer Tools**:
+  * Cloud9: offers an integrated development environment (IDE) that runs inside a web browser.
+  * CodeCommit: offers a service similar to GitHub that works with Git repositories. 
+  * CodeDeploy: allows you to deploy an application to servers running on-premises and in the cloud.
+  * CodePipeline: allows you to implement a CI/CD pipeline.
 - [ ] **Exploring Deployment and Infrastructure Management Services**:
+  * CloudFormation: supports infrastructure automation using Infrastructure as Code (IaC).
+  * Elastic Beanstalk: is only used to deploy applications to the AWS Cloud — it is not used to deploy applications on-premises.
+  * OpsWorks: can deploy applications on-premises, and it also automates infrastructure management 
+
+using Chef or Puppet.
 ## Security and Compliance
 
 ## Billing and Pricing
