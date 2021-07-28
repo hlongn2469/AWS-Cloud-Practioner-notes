@@ -205,6 +205,18 @@
   * CloudFormation: supports infrastructure automation using Infrastructure as Code (IaC).
   * Elastic Beanstalk: is only used to deploy applications to the AWS Cloud — it is not used to deploy applications on-premises.
   * OpsWorks: can deploy applications on-premises, and it also automates infrastructure management using Chef or Puppet.
+- [ ] **Utilizing Messaging and Integration Services: SQS**:
+  * SQS (Simple Queue Service): message queueing service that allows you to build loosely coupled system (FIFO order)
+- [ ] **Utilizing Messaging and Integration Services: SNS and SES**:
+  * SNS(Simple notification service) allows you to send emails and text messages from your applications.
+    * Best for notification purposes 
+  * SES(Simple email service) is an email service that allows you to send richly formatted HTML emails from your applications.
+    * Best for marketing campaigns or profesional email  
+- [ ] **Exploring Auditing, Monitoring, and Logging Services**:
+  * CloudWatch is a collection of services that help you monitor and observe your cloud resources.
+    * NOTE: Cloudwatch can monitor your EC2 instances and notify you when certain events occur.
+  * CloudTrail tracks user activity and API calls within your account
+    * NOTE: Things you can track with CloudTrail: username, event time and name, IP address, access key, Region, and error code. 
 ## Security and Compliance
 
 ## Billing and Pricing
