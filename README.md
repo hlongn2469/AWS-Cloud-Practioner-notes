@@ -224,6 +224,41 @@
     * You: responsible for security in the cloud(Application data, security config, patching, IAM, network traffic, and installed software)
 - [ ] **Leveraging the Well-Architected Framework**:
   ![](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/pillars_use_case.png)
+- [ ] **Understanding IAM Users**
+  * Identity Access and Management (IAM): allows you to control access to your AWS services and resources. 
+  * Root User: able to perform unique tasks
+    * Close your account
+    * Change email address
+    * Modify support plans 
+  * Users:
+    * Used for individuals that peforms seperate tasks
+  * Groups:
+    * Used to group user that perform similar tasks.
+    * Access permissions apply to all members of the group.
+    * Access is assigned using policies and roles. 
+  * Principle of least privilege
+    * Gives a user the minimum access required to get the job done
+  * Real word use cases:
+    * User: Create access keys for an IAM user that needs access to the AWS CLI.
+    * Group: Apply the same access controls to a large set of users.
+- [ ] **Understanding IAM Permissions**
+  * Role: defines access permissions and are temporarily 
+    * You assume a role to perform a task in a single session 
+    * Assumed by any user or service that needs it.
+    * Access is assigned using policies
+    * You grant users in one AWS account access to resources in another AWS account.
+  * Policies: You manage permissions for IAM users, groups, and roles by creating a policy document in JSON format and attaching it.
+  * Real world use cases:
+    * Role: Attach a role to an EC2 instance for acccess to S3 
+    * Policies: You can limit access to an Amazon S3 bucket to specific users.
+  * IAM best practices
+    * Enable MultiFactorAuthentication for privileged users.
+    * Implement strong password policies.
+    * Create individual users instead of using root.
+    * Use roles for Amazon EC2 instances.
+  * IAM credential report
+    * The IAM credential report lists all users in your account and the status of their various credentials.
+    * Used for auditing and compliance
 - [ ] 
    
 ## Billing and Pricing
