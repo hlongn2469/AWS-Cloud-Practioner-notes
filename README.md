@@ -218,5 +218,12 @@
   * CloudTrail tracks user activity and API calls within your account
     * NOTE: Things you can track with CloudTrail: username, event time and name, IP address, access key, Region, and error code. 
 ## Security and Compliance
-
+- [ ] **Understanding the Shared Responsibility Model**:
+  * There is a shared security responsibility between you and AWS:
+    * AWS: responsible for security of cloud (AWS global infra, networking components, software, and building security)
+    * You: responsible for security in the cloud(Application data, security config, patching, IAM, network traffic, and installed software)
+- [ ] **Leveraging the Well-Architected Framework**:
+  ![](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/well-arch.png)
+- [ ] 
+   
 ## Billing and Pricing
