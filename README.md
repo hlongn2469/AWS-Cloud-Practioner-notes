@@ -223,7 +223,7 @@
     * AWS: responsible for security of cloud (AWS global infra, networking components, software, and building security)
     * You: responsible for security in the cloud(Application data, security config, patching, IAM, network traffic, and installed software)
 - [ ] **Leveraging the Well-Architected Framework**:
-  ![](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/well-arch.png)
+  ![](https://github.com/hlongn2469/AWS-Cloud-Practioner-notes/blob/main/pillars_use_case.png)
 - [ ] 
    
 ## Billing and Pricing
